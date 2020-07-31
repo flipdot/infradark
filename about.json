@@ -1,0 +1,30 @@
+{
+  "name": "Infradark",
+  "component": false,
+  "license_url": "https://github.com/flipdot/infradark/blob/master/LICENSE",
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "Cascadia-Code": "assets/CascadiaCode.woff2",
+    "Cascadia-Mono": "assets/CascadiaMono.woff2"
+  },
+  "color_schemes": {
+    "Dark": {
+      "primary": "d0a800",
+      "secondary": "161618",
+      "tertiary": "44af44",
+      "quaternary": "f9eaac",
+      "header_background": "161618",
+      "header_primary": "f6c600",
+      "highlight": "ffff4d",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "e11c1c"
+    }
+  },
+  "modifiers": {
+  }
+}
