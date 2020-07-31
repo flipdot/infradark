@@ -8,6 +8,9 @@
 
 $body-color: #afafaf;
 $infragelb: #f4c400;
+$list-background: change-color($color: #536169, $alpha: 0.41);
+
+// TODO: Increase contrast on blockquotes. Something like #332b17 as BG color could work
 
 body {
 	font-family: 'Cascadia Mono';
@@ -31,9 +34,9 @@ html {
 	}
 }
 
-.user-menu .quick-access-panel li:hover {
-	// TODO: This looks ugly
-	background-color: #536169;
+.user-menu .quick-access-panel li:hover,
+.menu-panel li a.widget-link:hover {
+	background-color: $list-background;
 }
 
 .docked .d-header {
